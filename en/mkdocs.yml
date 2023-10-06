@@ -41,7 +41,8 @@ theme:
         - navigation.tabs.sticky
         - content.action.edit
         - content.action.view
-        # - navigation.top
+        - navigation.top
+        - toc.follow
     language: 'en'
     palette:
 
@@ -2282,7 +2283,7 @@ extra_css:
     # - assets/css/blue-palette.css
     # - assets/css/green-palette.css
     - assets/css/orange-palette.css
-    - assets/css/apktheme.css
+    - assets/css/theme.css
     - assets/lib/json-formatter/json-formatter.css
     - assets/css/config-catalog.css
     - assets/lib/fontawesome-free-6.3.0-web/css/all.min.css
@@ -2290,7 +2291,7 @@ extra_css:
 extra_javascript:
     - assets/lib/highlightjs/highlight.min.js
     - assets/lib/json-formatter/json-formatter.umd.js
-    - assets/js/apktheme.js
+    - assets/js/theme.js
     # - assets/lib/backtotop/js/util.js
     # - assets/lib/backtotop/js/main.js
 
